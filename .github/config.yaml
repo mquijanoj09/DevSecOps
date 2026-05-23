@@ -1,8 +1,8 @@
 language: EN
-strict: false
-# output:
-#   file_path: results.csv
-#   format: CSV
+strict: true
+output:
+  file_path: results.csv
+  format: CSV
 sast:
   include:
     - .
