@@ -1,0 +1,11 @@
+language: EN
+strict: false
+# output:
+#   file_path: results.csv
+#   format: CSV
+sast:
+  include:
+    - .
+  exclude: # Optional: paths to exclude from scanning
+    - node_modules
+    - vendor
